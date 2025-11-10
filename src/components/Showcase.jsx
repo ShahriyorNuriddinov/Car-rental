@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 import img from "../assets/car.png";
 import img1 from "../assets/car1.png";
 import img2 from "../assets/car2.png";
-function App() {
+function Showcase() {
   return (
     <div className="container1">
       <Swiper
@@ -36,4 +36,4 @@ function App() {
   );
 }
 
-export default App;
+export default Showcase;
