@@ -60,3 +60,35 @@ export let cars = [
     soda: "1-lit / 2.5 km",
   },
 ];
+export const brands = [
+  {
+    id: 1,
+    name: "Ford",
+    logo: "https://raw.githubusercontent.com/ShahriyorNuriddinov/imgs/main/image%209.png",
+  },
+  {
+    id: 2,
+    name: "Nissan",
+    logo: "https://raw.githubusercontent.com/ShahriyorNuriddinov/imgs/main/image%2010.png",
+  },
+  {
+    id: 3,
+    name: "Toyota",
+    logo: "https://raw.githubusercontent.com/ShahriyorNuriddinov/imgs/main/image%2011.png",
+  },
+  {
+    id: 4,
+    name: "Dodge",
+    logo: "https://raw.githubusercontent.com/ShahriyorNuriddinov/imgs/main/image%2012.png",
+  },
+  {
+    id: 5,
+    name: "Hyundai",
+    logo: "https://raw.githubusercontent.com/ShahriyorNuriddinov/imgs/main/image%2012.png",
+  },
+  {
+    id: 6,
+    name: "Jeep",
+    logo: "https://raw.githubusercontent.com/ShahriyorNuriddinov/imgs/main/volkswagen-vector-svg-3%203.png",
+  },
+];
