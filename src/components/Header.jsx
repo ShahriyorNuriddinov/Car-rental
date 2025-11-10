@@ -7,15 +7,12 @@ const Header = () => {
 
   return (
     <header className="container1 flex items-center justify-between gap-4 py-3 px-4 sm:px-6 lg:px-8">
-      {/* Logo and Navigation */}
       <div className="flex items-center justify-between gap-6">
         <div>
           <a href="/">
             <img src={logo} alt="logo" className="w-32 sm:w-auto" />
           </a>
         </div>
-
-        {/* Desktop Navigation */}
         <ul className="hidden lg:flex items-center gap-9">
           <li className="cursor-pointer text-base text-black font-medium hover:text-blue-500 transition-colors">
             Categories
@@ -98,16 +95,12 @@ const Header = () => {
         </ul>
       </div>
 
-      {/* Right Section - Contact and Actions */}
       <div className="flex items-center gap-4 sm:gap-6 lg:gap-8">
-        {/* Phone Number - Hidden on mobile */}
         <a href="tel:+1 855 420 0000" className="hidden sm:block">
           <h3 className="font-semibold text-base text-black hover:text-blue-500 transition-colors">
             +1 855 420 0000
           </h3>
         </a>
-
-        {/* Search Icon */}
         <div className="size-10 sm:size-14 bg-[#f5f5f5] rounded-full cursor-pointer flex items-center justify-center hover:bg-yellow-300 transition-colors">
           <svg
             width="20"
@@ -123,7 +116,6 @@ const Header = () => {
           </svg>
         </div>
 
-        {/* Login Button */}
         <div className="hidden sm:block">
           <button
             onClick={() => setIsOpen(true)}
@@ -150,7 +142,6 @@ const Header = () => {
           </button>
         </div>
 
-        {/* Mobile Menu Button */}
         <button
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           className="lg:hidden size-10 bg-[#f5f5f5] rounded-full cursor-pointer flex items-center justify-center hover:bg-yellow-300 transition-colors"
@@ -172,8 +163,6 @@ const Header = () => {
           </svg>
         </button>
       </div>
-
-      {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="lg:hidden fixed inset-0 z-40 bg-white mt-16">
           <div className="flex flex-col p-6 space-y-4">
@@ -245,8 +234,6 @@ const Header = () => {
           </div>
         </div>
       )}
-
-      {/* Login Modal */}
       {Open && (
         <div className="fixed z-50 flex items-center justify-center top-0 left-0 right-0 bottom-0 bg-[rgba(0,0,0,0.5)] p-4">
           <div className="bg-white w-full max-w-md lg:min-w-[500px] rounded-3xl relative max-h-[90vh] overflow-y-auto">
